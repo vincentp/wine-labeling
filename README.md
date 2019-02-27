@@ -1,8 +1,8 @@
-# Extra wine labels details
+# Wine labels details
 
 https://github.com/desmondmorris/node-tesseract
 
 ## Requirements
 
-    brew install tesseract --with-all-languages
+    brew install tesseract tesseract-lang
 

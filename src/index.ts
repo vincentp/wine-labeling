@@ -3,7 +3,11 @@ import path from 'path';
 
 const filePath = path.join(__dirname, '..', 'img', 'label-1.png');
 
-tesseract.process(filePath, (err, text) => {
+const options = {
+  l: 'fra'
+};
+
+tesseract.process(filePath, options, (err, text) => {
   if (err) {
     console.error(err);
   } else {
